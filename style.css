@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(227, 255, 246);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(158, 252, 252);
+    display: flex;
+    height: 8vh;
+}
+
+header> h1{
+    margin-left: 2%;
+}
+
+#top-nav{
+    display: flex;
+    align-items: center;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav > ul> li> a{
+    text-decoration: none;
+    color: rgb(28, 104, 110);
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: rgb(158, 252, 252);
+}
+
+footer>p{
+    margin: 0;
+    color: rgb(29, 104, 109);
+}
+
+
+footer>p>a{
+    text-decoration: none;
+    color: rgb(28, 104, 110);
+}
