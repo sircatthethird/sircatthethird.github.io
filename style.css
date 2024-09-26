@@ -35,6 +35,17 @@ main{
     flex-wrap: wrap;
 }
 
+figure{
+    background-color: #eceaea60;
+    border: thin solid;
+    padding: 5px;
+
+}
+
+figcaption{
+    text-align: center;
+}
+
 footer{
     background-color: rgb(158, 252, 252);
 }
