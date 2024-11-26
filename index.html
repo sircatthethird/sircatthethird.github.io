@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Collection</title>
@@ -12,16 +13,14 @@
         <h1>Cat Collection</h1>
         <nav id="top-nav">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+ 
             </ul>
          </nav>
     </header>
 
     <main>
-        <figure>
-            <img src="pole_cat.jpg" alt="Cat next to pole" width="425" height="275">
+        <figure id="fig1">
+            <img  src="pole_cat.jpg" alt="Cat next to pole" width="425" height="275">
             <figcaption>Cat next to a pole - 03-09-2024</figcaption>
         </figure>
         <figure>
@@ -49,8 +48,15 @@
             <figcaption>Dog </figcaption>
         </figure>
 
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
         
     </main>
+
+
     <footer>
         <p>&copy;2024 <a href="https://github.com/sircatthethird">sircatthethird</a></p>
     </footer>
